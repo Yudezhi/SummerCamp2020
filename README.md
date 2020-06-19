@@ -1,4 +1,8 @@
-# Introduction2
+---
+description: 暑期夏令营整体介绍
+---
 
-This is for image caption introduction
+# Introduction
+
+> 此次夏令营总计四周，将近一个月的时间。
 
