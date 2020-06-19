@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Introduction2](README.md)
 * [预备周：基于认知科学的信息训练法](yu-bei-zhou-ji-yu-ren-zhi-ke-xue-de-xin-xi-xun-lian-fa/README.md)
   * [检索实操](yu-bei-zhou-ji-yu-ren-zhi-ke-xue-de-xin-xi-xun-lian-fa/jian-suo-shi-cao.md)
   * [基础任务\_](yu-bei-zhou-ji-yu-ren-zhi-ke-xue-de-xin-xi-xun-lian-fa/ji-chu-ren-wu.md)
