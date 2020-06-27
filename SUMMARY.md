@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [暑期夏令营介绍](README.md)
 * [第一周：基础知识与分类任务的实现](week1/README.md)
   * [检索实操](week1/jian-suo-shi-cao.md)
   * [基础任务\_](week1/ji-chu-ren-wu.md)
