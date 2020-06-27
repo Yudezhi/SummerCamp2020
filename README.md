@@ -34,7 +34,7 @@ description: 暑期夏令营整体介绍
 * 复习、了解 Python、PTorch等编程技术
 * 学习Linux操作（或Windows），完成一个基本的图像分类任务
 
-#### 第二周：经典任务学习
+#### 第二周：经典方案学习
 
 * 按照教程学习并理解《Show and Tell: A neural image caption generator》的实现全过程
 * 透过源码学习自动评价指标（5个）的原理
