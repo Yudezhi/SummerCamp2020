@@ -15,12 +15,12 @@
 
 ## 本周规划
 
-| 星期 | 内容                                       | 链接                                                         |
+| 星期 | 学习内容                                   | 参考教程                                                     |
 | ---- | ------------------------------------------ | ------------------------------------------------------------ |
-| 周一 | 了解图像描述和数据集、了解神经网络         | [图像描述概况](https://bobing.gitbook.io/summercamp2020/week1/tu-xiang-miao-shu-gai-kuang) 、[数据集介绍](https://bobing.gitbook.io/summercamp2020/week1/shu-ju-ji-jie-shao)、 [神经网络入门](https://bobing.gitbook.io/summercamp2020/week1/shen-jing-wang-luo-ru-men) |
+| 周一 | 了解图像描述和数据集、了解神经网络         | 图像描述概况、数据集介绍、 神经网络入门                      |
 | 周二 | 学习 CNN、 LSTM                            | 待定                                                         |
 | 周三 | PyTorch 简单应用（MNIST 手写分类）         | https://github.com/zergtant/pytorch-handbook/tree/master/chapter2 |
 | 周四 | 图像描述再了解（通过综述）                 | 《A survey on automatic image caption generation》、《图像的文本描述方法研究综述》 |
 | 周五 | 如何评价一个模型质量的好坏？（学习、讨论） | 无                                                           |
-| 周末 | 查漏补缺，学习过程中有哪些概念不熟、不清   | [最新发展](https://bobing.gitbook.io/summercamp2020/week1/mu-qian-zui-xin-jin-zhan) |
+| 周末 | 查漏补缺，学习过程中有哪些概念不熟、不清   | 最新发展                                                     |
 
