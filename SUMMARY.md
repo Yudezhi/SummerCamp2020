@@ -6,6 +6,8 @@
   * [数据集介绍](week1/数据集介绍.md)
   * [神经网络入门](week1/神经网络入门.md)
   * [目前最新进展](week1/目前最新进展.md)
+  * [了解CNN](了解CNN.md)
+  * [了解LSTM](了解LSTM.md)
 * [第二周：经典方案学习](week2/README.md)
   * [检索实操](week2/jian-suo-shi-cao.md)
   * [基础任务](week2/ji-chu-ren-wu.md)
