@@ -1,8 +1,8 @@
 # Table of contents
 
 * [暑期夏令营介绍](README.md)
-* [相关环境配置](others/相关环境配置)
-* [了解NLP](others/了解NLP)
+* [相关环境配置](others/相关环境配置.md)
+* [了解NLP](others/了解NLP.md)
 * [第一周：基础知识](week1/README.md)
   * [图像描述概况](week1/图像描述概况.md)
   * [数据集介绍](week1/数据集介绍.md)
