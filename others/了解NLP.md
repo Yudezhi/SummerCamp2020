@@ -79,3 +79,5 @@ NLP 的难点概括成一句话就是自然语言天然有**歧义**。而要想
 
 1. [NLP任务的一般步骤](https://github.com/NLP-LOVE/ML-NLP/tree/master/NLP/16. NLP#4-nlp任务的一般步骤)
 2. NLP [自然语言处理简介](https://blog.csdn.net/sinat_26811377/article/details/100569494)
+3. [如何不出国门走进NLP学术前沿](https://zhuanlan.zhihu.com/p/35380020)
+4. [初学者如何查阅自然语言处理（NLP）领域学术资料](https://www.hijerry.cn/p/49382.html)

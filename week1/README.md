@@ -21,6 +21,6 @@
 | 周二 | 学习 CNN、 LSTM                            | 了解CNN、了解LSTM                                            |
 | 周三 | PyTorch 简单应用（MNIST 手写分类）         | https://github.com/zergtant/pytorch-handbook/tree/master/chapter2 |
 | 周四 | 图像描述再了解（通过综述）                 | 《A survey on automatic image caption generation》、《图像的文本描述方法研究综述》 |
-| 周五 | 如何评价一个模型质量的好坏？（学习、讨论） | 无                                                           |
+| 周五 | 如何评价一个模型质量的好坏？（学习、讨论） | 简单了解相关指标，线上会议总结讨论学习成果                   |
 | 周末 | 查漏补缺，学习过程中有哪些概念不熟、不清   | 最新发展                                                     |
 
