@@ -3,6 +3,7 @@
 * [暑期夏令营介绍](README.md)
 * [相关环境配置](others/相关环境配置.md)
 * [了解NLP](others/了解NLP.md)
+* [服务器的简单操作](others/服务器的简单操作.md)
 * [第一周：基础知识](week1/README.md)
   * [图像描述概况](week1/图像描述概况.md)
   * [数据集介绍](week1/数据集介绍.md)
