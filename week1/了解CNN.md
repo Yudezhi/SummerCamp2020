@@ -31,7 +31,7 @@
 
 卷积就是用一个小矩阵不断的在大矩阵（这里就是图像的表示）上移动做卷积（对应相乘求和），以得到一个新的矩阵，新的矩阵的维度和数值都是崭新的。下面我们看一个图就明白了！（图源见经典教程3）
 
-![](http://resource.mahc.host/img/Convolution_schematic.gif)
+![卷积示意图](http://resource.mahc.host/img/Convolution_schematic.gif)
 
 #### 填充（Padding）
 

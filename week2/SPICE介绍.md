@@ -12,7 +12,7 @@ SPICE的基本思想是通过度量候选（candidate）和参考（reference）
 
 在具体介绍如何计算之前，我们先给出场景图的直观展示（图来自原论文）：
 
-<img src="http://resource.mahc.host/img/image-20200710174143298.png" alt="image-20200710174143298" style="zoom: 67%;" />
+<img src="http://resource.mahc.host/img/image-20200710174143298.png" alt="图1：场景图与依赖树" style="zoom: 67%;" />
 
 
 
@@ -38,7 +38,7 @@ $$
 
 再给出更具体的计算步骤前，我们再给出一个更完整的过程图帮助读者对这个方法有感性的认识（来自原文图2）：
 
-<img src="http://resource.mahc.host/img/image-20200711144902313.png" alt="image-20200711144902313" style="zoom: 67%;" />
+<img src="http://resource.mahc.host/img/image-20200711144902313.png" alt="图2：图像与场景图" style="zoom: 67%;" />
 
 
 
@@ -59,7 +59,6 @@ $$
    \{(girl),(court),(girl,young),(girl,standing),(court,tennis),(girl,on-top-of,court)     \}
    $$
    
-
 4. 计算
 
    定义一个操作符 $$\otimes$$  为两个场景图的元组的二项匹配，会返回匹配的元组，下面给出相关计算公式：

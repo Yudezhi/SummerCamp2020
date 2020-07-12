@@ -22,8 +22,8 @@ METEOR的基本评价单位是句子，首先算法会建立两个句子（标�
 
 <p>对齐关系(左右两类对齐)：</p>
 <center>
-<img src="http://resource.mahc.host/img/METEOR-alignment-a.png" style="zoom:50%;"/>
-<img src="http://resource.mahc.host/img/METEOR-alignment-b.png" style="zoom:50%;" />
+<img src="http://resource.mahc.host/img/METEOR-alignment-a.png" alt="对齐方式1" style="zoom:50%;"/>
+<img src="http://resource.mahc.host/img/METEOR-alignment-b.png" alt="对齐方式2" style="zoom:50%;" />
 </center>
 
 

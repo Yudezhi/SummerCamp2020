@@ -34,11 +34,11 @@ RNN多用于自然语言相关的任务，它本身就有自己的结构，只�
 
 下面我们直接来看经典的RNN图示（图源见教程1）：
 
-![img](http://resource.mahc.host/img/10.png)
+![RNN简图](http://resource.mahc.host/img/10.png)
 
 图中的 $$X_t$$  即表示在 t 时刻的一个输入，$$h_t$$  表示输出，图中的黑色回路线表示这个图是有循环功能的，我们把上图展开，其实就是变成了一个有时间顺序的序列操作，见下图：
 
-![](http://resource.mahc.host/img/11.png)
+![RNN展开图](http://resource.mahc.host/img/11.png)
 
 现在我们来看，$$X_0$$ 就是成语接龙的开始，$$X_1$$可以看作是前一个人的输出，而$$h_0$$ 则可以看作是代表着一些历史信息，这种历史信息在$$h_2 , h_3 ....$$ 等更加明显，一般称之为隐藏状态（hidden state），类似于哪些成语已经被说过了。绿色方块A之间的连接黑色箭头，就是 $$h_*$$ , 以上这种解释类比只是一家之言，只为了读者可以更快的理解这种设计意图，更专业的解释见相关论文。
 
@@ -62,7 +62,9 @@ RNN多用于自然语言相关的任务，它本身就有自己的结构，只�
 
 上面我们看到的$$h_t$$ 就是所谓的记忆，理论上讲，后面的单元可以通过这个值记住前面所有的信息，但是在实际应用中却效果不好，无法记住比较“远”的信息，因此有了改进版的。同理，我们直接上经典模型图：
 
-<img src="http://resource.mahc.host/img/LSTM3-chain.png" style="zoom: 33%;" />
+
+
+<img src="http://resource.mahc.host/img/LSTM3-chain.png" alt="LSTM" style="zoom:33%;" />
 
 
 
@@ -90,7 +92,7 @@ LSTM 计算公式如下：
 
 
 
-![](http://resource.mahc.host/img/lstm.gif)
+![LSTM动图](http://resource.mahc.host/img/lstm.gif)
 
 
 

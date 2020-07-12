@@ -94,7 +94,7 @@ $$
 
 > 下面给出CIDEr计算解释很完美的一张图，更多信息见参考资料5
 
-<img src="http://resource.mahc.host/img/image-20200709191723387.png" alt="image-20200709191723387" style="zoom:67%;" />
+<img src="http://resource.mahc.host/img/image-20200709191723387.png" alt="CIDEr计算公式" style="zoom:67%;" />
 
 笔者注：$$m$$ 表示一个图像其参考句子（reference） 的个数；在本文中 $$N$$ = 4, $$w_n = \frac {1} {N}$$ 
 
