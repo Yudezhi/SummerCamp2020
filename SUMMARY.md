@@ -12,11 +12,20 @@
   * [了解CNN](week1/了解CNN.md)
   * [了解LSTM](week1/了解LSTM.md)
 * [第二周：经典方案学习](week2/README.md)
-  * [检索实操](week2/jian-suo-shi-cao.md)
-  * [基础任务](week2/ji-chu-ren-wu.md)
-  * [进阶任务](week2/jin-jie-ren-wu.md)
-  * [个人教程](week2/ge-ren-jiao-cheng.md)
+  
+  * [经典方案概要复现](week2/经典方案概要复现.md)
+  * [经典方案完备复现](week2/经典方案完备复现.md)
+  * [BLEU](week2/BLEU介绍.md)
+  * [ROUGE](week2/ROUGE介绍.md)
+  * [METEOR](week2/METEOR介绍.md)
+  
+  * [CIDEr](week2/CIDEr介绍.md)
+  
+  * [SPICE](week2/SPICE介绍.md)
+  * [Perplexity](week2/Perplexity介绍.md)
+  * [指标评价思考](week2/指标评价思考.md)
 * [第三周：人工评价与机器测评](week3/README.md)
+  
   * [检索实操](week3/jian-suo-shi-cao.md)
   * [基础任务](week3/ji-chu-ren-wu.md)
   * [进阶任务](week3/jin-jie-ren-wu.md)
