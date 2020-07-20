@@ -27,6 +27,7 @@
 * [第三周：人工评价与机器测评](week3/README.md)
   * [标注说明](week3/标注说明.md)
   * [样例参考](week3/样例参考.md)
+  * [网站说明](week3/网站说明.md)
 * [第四周：总结、调研与汇报](week4/README.md)
   * [检索实操](week4/jian-suo-shi-cao.md)
   * [基础任务](week4/ji-chu-ren-wu.md)
