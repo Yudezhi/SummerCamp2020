@@ -25,11 +25,8 @@
   * [Perplexity](week2/Perplexity介绍.md)
   * [指标评价思考](week2/指标评价思考.md)
 * [第三周：人工评价与机器测评](week3/README.md)
-  
-  * [检索实操](week3/jian-suo-shi-cao.md)
-  * [基础任务](week3/ji-chu-ren-wu.md)
-  * [进阶任务](week3/jin-jie-ren-wu.md)
-  * [个人教程](week3/ge-ren-jiao-cheng.md)
+  * [标注说明](week3/标注说明.md)
+  * [样例参考](week3/样例参考.md)
 * [第四周：总结、调研与汇报](week4/README.md)
   * [检索实操](week4/jian-suo-shi-cao.md)
   * [基础任务](week4/ji-chu-ren-wu.md)
