@@ -1,14 +1,10 @@
-# BLEU 介绍
+# BLEU
 
 > 几乎在自然语言领域随处可见的评价指标，提出论文： 《BLEU: a Method for Automatic Evaluation of Machine Translation》
-
-
 
 ## 简介
 
 BLEU（Bilingual Evaluation understudy） 中文翻译为双语互译质量辅助工具，是流行的机器翻译评价指标，基于精确度的相似性度量，用于分析候选译文和参考译文中n元组共同出现的程度，由IBM科学家Kishore Papineni 在2002年提出。尽管这个指标是为机器翻译发明的，但它可以评估一组自然语言处理任务生成的文本。
-
-
 
 ## 如何计算
 
@@ -27,10 +23,12 @@ BLEU（Bilingual Evaluation understudy） 中文翻译为双语互译质量辅�
 上述若干字用一句话来概括，就是分母不同代表着不同的评估角度。细心的读者会发现，二者各自评估都很有可能出错，一般将二者结合来看才能从一定程度了解模型的质量。
 
 现在我们直接给出一个尚不完整的基于精确率的n-gram度量公式：
+
 $$
 P_n (C,S) = \frac {\sum_i\sum_k min(h_k(c_i),max_{j\in m}h_k (s_{ij}))}   {\sum_i \sum_k h_k(c_i)}
 $$
-其中，n表示n-gram 中的n，m 表示参考译文句子的个数，用$$s_i$$ 表示第i个样例的参考译文（m个），$$c_i$$ 表示第i个样例的候选译文（1个），k 是 候选译文中n-gram 的索引（n-gram有多个），$$h_k(*)$$ 表示第k个n-gram 在 * 中的出现次数。
+
+其中，n表示n-gram 中的n，m 表示参考译文句子的个数，用$$s_i$$ 表示第i个样例的参考译文（m个），$$c_i$$ 表示第i个样例的候选译文（1个），k 是 候选译文中n-gram 的索引（n-gram有多个），$$h_k(*)$$ 表示第k个n-gram 在 \* 中的出现次数。
 
 综上，式（1）的分子表示对所有样例中，所有n-gram在参考译文或候选译文中出现次数的和（不严谨的表述），分母是所有样例、所有n-gram 在 候选译文中出现的个数，即上式基于精确率。
 
@@ -39,30 +37,30 @@ $$
 上式的计算其实还有个缺陷，就是基于精确率会天然的使得生成的短句子占据优势（生成的越短则正确率越高），因此研究者们又提出了惩罚因子，以此来克服这个问题。
 
 惩罚因子（Brevity Penalty：BP因子）的定义如下：
+
 $$
 BP(C,S) =
-	\begin{cases}
-		1,   l_c > l_s\\
-		e^{1-\frac {l_s}  {l_c} }, l_c \leq l_s
-	\end{cases}
+    \begin{cases}
+        1,   l_c > l_s\\
+        e^{1-\frac {l_s}  {l_c} }, l_c \leq l_s
+    \end{cases}
 $$
 
-
-$$l_c$$  表示候选译文的长度，$$l_s$$ 表示参考译文的长度（当有多个参考译文的时候，选择和候选译文最接近的长度），读者自行思考惩罚因子的合理性。
+$$l_c$$ 表示候选译文的长度，$$l_s$$ 表示参考译文的长度（当有多个参考译文的时候，选择和候选译文最接近的长度），读者自行思考惩罚因子的合理性。
 
 ### BLEU计算
 
 综上，我们给出最终的BLEU的计算：
+
 $$
 BLEU_N(C,S) = BP(C,S) · exp (\sum^N_{n=1} \omega_nlog P_n(C,S))
 $$
-其中 $$\omega_n = 1/N $$ , 并且 $$N$$  的上限值一般为4.
+
+其中 $$\omega_n = 1/N$$ , 并且 $$N$$ 的上限值一般为4.
 
 注意：BLEU 采用 clipping 策略，即 候选译文中被匹配过的n-gram 应该被裁剪掉。
 
 如果仍然对如何计算感到迷惑，请阅读参考资料5.
-
-
 
 ## 参考资料
 
@@ -70,5 +68,5 @@ $$
 2. [机器翻译评价指标BLEU介绍](https://blog.csdn.net/g11d111/article/details/100103208)
 3. [BLEU算法详解](https://www.cnblogs.com/by-dream/p/7679284.html)
 4. [如何解释召回率和精确率](https://www.zhihu.com/question/19645541)
-5. [机器翻译评测——BLEU算法详解 (新增 在线计算BLEU分值)](https://www.cnblogs.com/by-dream/p/7679284.html)
+5. [机器翻译评测——BLEU算法详解 \(新增 在线计算BLEU分值\)](https://www.cnblogs.com/by-dream/p/7679284.html)
 

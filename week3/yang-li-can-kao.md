@@ -1,14 +1,8 @@
-# <del>样例参考</del>
+# 样例参考
 
-## <del>标注原则</del>
+## ~~标注原则~~
 
-<h3>本文档已过时，请参考 评分细则！！</h3>
-
-
-
-
-
-
+### 本文档已过时，请参考 评分细则！！
 
 > $$\color{red}{本文档本周内会根据实践实时更新，请及时查阅；也愿各位读者在标注过程中遇到问题及时反馈，我们及时调整策略}$$
 
@@ -28,25 +22,17 @@
    * 或对或错：遇到某描述不确定是否正确时标注人根据整体印象+0.5分或1分
    * 不正确：出现不正确的描述时，不加分，不扣分
 
-
-
 ## 标注示例
 
 **23873**
 
-<img src="http://resource.mahc.host/img/image-20200720074241819.png" alt="image_id:23873" style="zoom:50%;" />
+![image\_id:23873](http://resource.mahc.host/img/image-20200720074241819.png)
 
 人工标注：
 
-<img src="http://resource.mahc.host/img/image-20200720074407545.png" style="zoom: 67%;" />
+![](http://resource.mahc.host/img/image-20200720074407545.png)
 
-
-
-⼈为识别图⽚中的内容
-**⼀些物体：**
-tower、clock（严格要求的话，应该是clock tower)、hotel、other buildings
-**⼀些场景：**
-street、city
+⼈为识别图⽚中的内容 **⼀些物体：** tower、clock（严格要求的话，应该是clock tower\)、hotel、other buildings **⼀些场景：** street、city
 
 * 模型一： a large clock tower in the middle of a city.
 
@@ -56,30 +42,21 @@ street、city
   >
   > **属性**：属性词是large，⽐较合适，属性分1分
 
-  
-
 * 模型二：a clock on the side of a building on a city street.
 
   > **对象**：clock，city street，对象分给2分
   >
-  > **关系**：on a city street 是个⽐较合理的推理，但是on the side of a building是把tower识别成了building，
-  > 这个关系描述的有些冗余，可以给0.5分 所以关系分给1.5分
+  > **关系**：on a city street 是个⽐较合理的推理，但是on the side of a building是把tower识别成了building， 这个关系描述的有些冗余，可以给0.5分 所以关系分给1.5分
   >
   > **属性**：city在这⾥可以算是⼀个属性词，1分
-
-  
 
 * 模型三： a clock tower in the middle of a city.
 
   > 只是⽐模型⼀少了 large，分析同模型⼀
 
-  
-
 * 模型四： a clock on the side of a building.
 
   > ⽐模型⼆少了on a city street，分析同模型⼆
-
-  
 
 * 模型五： a view of a city with a clock tower in the background.
 
@@ -89,23 +66,15 @@ street、city
   >
   > **属性**：a view of ...，属性分给1分
 
-  
-
-
-
 **18473**
 
-<img src="http://resource.mahc.host/img/image-20200720075820867.png" alt="image-20200720075820867" style="zoom:50%;" />
+![image-20200720075820867](http://resource.mahc.host/img/image-20200720075820867.png)
 
 人工标注：
 
-<img src="http://resource.mahc.host/img/image-20200720075851925.png" alt="image-20200720075851925" style="zoom:67%;" />
+![image-20200720075851925](http://resource.mahc.host/img/image-20200720075851925.png)
 
-这个场景的物体⽐较复杂
-物体：
-dog、book、desk、couch、fireplace 等等
-场景：
-room
+这个场景的物体⽐较复杂 物体： dog、book、desk、couch、fireplace 等等 场景： room
 
 * 模型一： A living room with a couch and a fireplace .
 
@@ -115,8 +84,6 @@ room
   >
   > **属性**：living ，属性分1分
 
-  
-
 * 模型二： A living room with a couch and a tv
 
   > **对象**：living room 、couch 对象分2分
@@ -125,49 +92,37 @@ room
   >
   > **属性**：living ，属性分1分
 
-  
-
 * 模型三：a dog laying on a bed in a room.
 
   > **对象**：dog、bed、room， 对象分3分
   >
-  > **关系**：laying on(动词关系，给1.5分）、 in 关系分 共计 2.5分
+  > **关系**：laying on\(动词关系，给1.5分）、 in 关系分 共计 2.5分
   >
   > **属性**：0.5分
-
-  
 
 * 模型四：A living room with a couch and a fireplace
 
   > 同模型一
 
-  
-
 * 模型五：A living room with a couch and a table .
 
   > 同模型一
 
-
-
 **10858**
 
-<img src="http://resource.mahc.host/img/image-20200720081400797.png" alt="image-20200720081400797" style="zoom:67%;" />
+![image-20200720081400797](http://resource.mahc.host/img/image-20200720081400797.png)
 
 人工标注：
 
-<img src="http://resource.mahc.host/img/image-20200720081436893.png" alt="image-20200720081436893" style="zoom:67%;" />
+![image-20200720081436893](http://resource.mahc.host/img/image-20200720081436893.png)
 
+* 模型一： a hot dog covered in foil and mustard .
 
-
-* 模型一： a  hot dog covered in foil and mustard .
-
-  > **对象**：hot dog、foil、mustard(这个不好确定是不是芥末酱)，2.5或3分
+  > **对象**：hot dog、foil、mustard\(这个不好确定是不是芥末酱\)，2.5或3分
   >
   > **关系**：cover in ，1.5分
   >
   > **属性**： 0.5分
-
-  
 
 * 模型二：a hot dog with lots of toppings on a foil wrapper .
 
@@ -177,17 +132,13 @@ room
   >
   > **属性**：lots of ,foil 2分
 
-  
-
 * 模型三： a close up of a hot dog on a bun
 
-  > **对象**：hot dog 、bun(和hot dog有冲突成分) 1.5分
+  > **对象**：hot dog 、bun\(和hot dog有冲突成分\) 1.5分
   >
   > **关系**: on ，关系不合适 0.5分
   >
   > **属性**: a close up 1分
-
-  
 
 * 模型四：a hot dog covered in toppings sitting on aluminum foil.
 
@@ -197,23 +148,17 @@ room
   >
   > **属性**： aluminum, 1分
 
-  
-
 * 模型五： a hot dog on a bun in a wrapper .
 
   > **对象**:：hot dog、 bun、 wrapper 3分
   >
-  > **关系**： on(关系不完全正确)、in  1.5分
+  > **关系**： on\(关系不完全正确\)、in 1.5分
   >
   > **属性**：0.5分
-  
-  
 
-**116048** 
+**116048**
 
 ![image-20200720110023561](http://resource.mahc.host/img/image-20200720110023561.png)
 
-> 理由：模型一、三、四对象正确出现四个，表达正确完整加一分，为5分。属性中预测到是女性为1分。模型五出现三个对象，但表达意思错误，仅得三分。模型二关系down the street  虽然正确，但标注人员认为关系错有违常识，只给0.5分。
-
-
+> 理由：模型一、三、四对象正确出现四个，表达正确完整加一分，为5分。属性中预测到是女性为1分。模型五出现三个对象，但表达意思错误，仅得三分。模型二关系down the street 虽然正确，但标注人员认为关系错有违常识，只给0.5分。
 
