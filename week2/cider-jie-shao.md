@@ -96,7 +96,7 @@ $$
 
 > 下面给出CIDEr计算解释很完美的一张图，更多信息见参考资料5
 
-![CIDEr&#x8BA1;&#x7B97;&#x516C;&#x5F0F;](http://resource.mahc.host/img/image-20200709191723387.png)
+![CIDEr&#x8BA1;&#x7B97;&#x516C;&#x5F0F;](https://smailnjueducn-my.sharepoint.com/:i:/g/personal/mahc_smail_nju_edu_cn/EWJ64chWk-hGm2w5JKiFSLkBTOrrgY0YNYfB9tfPJBI7yw?e=mLgJ1B)
 
 笔者注：$$m$$ 表示一个图像其参考句子（reference） 的个数；在本文中 $$N$$ = 4, $$w_n = \frac {1} {N}$$
 
