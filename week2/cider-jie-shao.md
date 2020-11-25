@@ -45,7 +45,7 @@ $$
 则相似度定义如下：
 
 $$
-similarity = cos(\theta) \frac {A·B}  {\|A\| \|B\|}
+similarity = cos(\theta) = \frac {A·B}  {\|A\| \|B\|}
 $$
 
 ### 计算
